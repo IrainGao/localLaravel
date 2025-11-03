@@ -8,6 +8,7 @@ class HelloController extends Controller
 {
     public function index()
     {
+        var_dump[111];
         return view('hello');
     }
 
